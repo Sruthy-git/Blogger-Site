@@ -261,17 +261,6 @@ function App() {
         <img src="/blog-hero-illustration.svg" alt="Blog writing illustration" />
       </section>
 
-      <section className="editor-picks">
-        <p>Editor picks</p>
-        <div>
-          {editorPicks.map((post) => (
-            <a key={post.id} href="#latest">
-              {post.title}
-            </a>
-          ))}
-        </div>
-      </section>
-
       <section className="category-row">
         {categories.map((category) => (
           <button
